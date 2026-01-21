@@ -5,8 +5,8 @@
 
 import streamlit as st
 import time
+from langchain_tavily import TavilySearch  # <--- The modern 2026 path
 from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain_community.tools.tavily_search import TavilySearchResults
 from langgraph.prebuilt import create_react_agent
 
 
