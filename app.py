@@ -33,7 +33,7 @@ with col2:
 try:
     # Use Gemini 1.5 Flash for the fastest initial 'reasoning'
     llm = ChatGoogleGenerativeAI(
-        model="gemini-1.5-flash-latest", 
+        model="gemini-2.0-flash", 
         google_api_key=st.secrets["GOOGLE_API_KEY"],
         temperature=0.1 # Low temperature = faster, more focused output
     )
