@@ -1,7 +1,14 @@
+#import streamlit as st
+#from langchain_google_genai import ChatGoogleGenerativeAI
+#from langchain_tavily import TavilySearchResults
+#from langgraph.prebuilt import create_react_agent
+
 import streamlit as st
+import time
 from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain_tavily import TavilySearchResults
+from langchain_community.tools.tavily_search import TavilySearchResults
 from langgraph.prebuilt import create_react_agent
+
 
 # --- UI SETUP ---
 st.set_page_config(page_title="Analyst AI Job Scout", page_icon="💼")
