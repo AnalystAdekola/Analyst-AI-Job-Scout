@@ -19,7 +19,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-st.title("⚡ My AI Job Scout: Ultra-Fast")
+st.title("⚡💼 My AI Job Scout: Ultra-Fast")
 st.caption("Finding your next role with real-time AI web intelligence.")
 
 # --- 2. INPUTS ---
