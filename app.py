@@ -10,7 +10,7 @@ from langchain_tavily import TavilySearch
 from langgraph.prebuilt import create_react_agent
 
 # --- 1. OPTIMIZED UI SETUP ---
-st.set_page_config(page_title="AI Job Scout 2.0", page_icon="💼", layout="wide")
+st.set_page_config(page_title="My Job Scout 2.0", page_icon="💼", layout="wide")
 
 st.markdown("""
     <style>
@@ -19,8 +19,8 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-st.title("⚡ AI Job Scout: Ultra-Fast")
-st.caption("2026 High-Performance Engine")
+st.title("⚡ My AI Job Scout: Ultra-Fast")
+st.caption("Finding your next role with real-time AI web intelligence.")
 
 # --- 2. INPUTS ---
 col1, col2 = st.columns(2)
